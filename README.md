@@ -1,2 +1,3 @@
-# homebrew-kelper
-Homebrew tap repo for kelper project
+# homebrew-kimspect
+
+Homebrew tap repo for kimspect project
