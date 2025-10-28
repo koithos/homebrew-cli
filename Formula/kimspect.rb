@@ -2,17 +2,17 @@
 class kimspect < Formula
   desc "A CLI tool for kimspect"
   homepage "https://github.com/koithos/kimspect"
-  version "v0.0.33"
+  version "v0.0.34"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/koithos/kimspect/releases/download/v0.0.33/kimspect-x86_64-apple-darwin"
-      sha256 "3fa8c00f23b19ccd8dd05e645e5026acec134b88514daa606a87f69ac5da03f4"
+      url "https://github.com/koithos/kimspect/releases/download/v0.0.34/kimspect-x86_64-apple-darwin"
+      sha256 "91fa17f17883631ca73bdd771216067b4c641001fec54efd28a1e2db07a1652c"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/koithos/kimspect/releases/download/v0.0.33/kimspect-aarch64-apple-darwin"
-      sha256 "892ab24f1d449b1a2a7190fa60ce514f88c89ca409dcc54fceb33bca8453b18b"
+      url "https://github.com/koithos/kimspect/releases/download/v0.0.34/kimspect-aarch64-apple-darwin"
+      sha256 "83d91c6024825d8ca72d84aee33065702346f824fd7938f175baf7587b5945c9"
     end
   end
 
