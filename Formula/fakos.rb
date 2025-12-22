@@ -1,5 +1,5 @@
 # Formula/fakos.rb
-class fakos < Formula
+class Fakos < Formula
   desc "A CLI tool for fakos"
   homepage "https://github.com/koithos/fakos"
   version "v0.0.1"
